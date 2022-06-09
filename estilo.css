@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: #8098d9;
+    overflow: hidden;
+}
+.Menu{
+    text-align: center;
+}
+.Menu li{
+    display: inline-block;
+}
+.Menu a{
+    padding: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+}
+.Menu a:hover{
+    background-color: cornflowerblue;    
+}
+.Cabecera{
+    background: rgb(201, 192, 192);
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    height: 50%;
+}
+.Iconos{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    height: 50%;
+    font-size: 30px;
+}
+.Contenido{
+    background: white;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+}
+p{
+    margin: 50px;
+    text-align: justify;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+ul{
+    margin: 50px;
+    text-align: justify;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.Pie{
+    background: white;
+    overflow: hidden;
+    color: black;
+}
+pre{
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.centrado{
+    margin:10px auto;
+    display:block;
+}
